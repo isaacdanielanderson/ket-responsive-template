@@ -1,0 +1,90 @@
+/* base file */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+/* line 1, ../scss/layout/_layout.sass */
+body {
+  font-family: "Raleway", sans-serif; }
+
+/* line 4, ../scss/layout/_layout.sass */
+::-moz-selection {
+  background-color: #07bcd4;
+  color: #fff; }
+::selection {
+  background-color: #07bcd4;
+  color: #fff; }
+
+/* line 9, ../scss/layout/_layout.sass */
+.logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 35px;
+  width: 135px;
+  margin-top: 25px;
+  margin-bottom: 32px; }
+
+/* line 19, ../scss/layout/_layout.sass */
+.navbar {
+  margin: 0; }
+
+/* line 22, ../scss/layout/_layout.sass */
+.navbar-nav > li > a {
+  padding: 35px 22px;
+  border-bottom: 3px solid #fff;
+  text-transform: uppercase;
+  color: #252726;
+  font-size: 15px; }
+
+/* line 30, ../scss/layout/_layout.sass */
+.navbar-nav > li > a:hover {
+  border-bottom: 3px solid #07bcd4;
+  color: #07bcd4; }
+
+/* line 34, ../scss/layout/_layout.sass */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #fff; }
+
+/* line 37, ../scss/layout/_layout.sass */
+.navbar-default {
+  border: none;
+  background-color: #ffffff; }
+
+/* line 43, ../scss/layout/_layout.sass */
+section .container-fluid {
+  background-color: #252726;
+  padding-top: 280px;
+  padding-bottom: 280px; }
+
+/* line 48, ../scss/layout/_layout.sass */
+.hero-cta {
+  text-align: center; }
+
+/* line 52, ../scss/layout/_layout.sass */
+.hero-cta h1 {
+  text-transform: uppercase;
+  margin: 0 0 40px 0;
+  font-size: 60px;
+  color: #ffffff; }
+/* line 57, ../scss/layout/_layout.sass */
+.hero-cta a {
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  line-height: 48px;
+  font-size: 18px;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+
+/* line 68, ../scss/layout/_layout.sass */
+.hero-cta a:hover {
+  color: #131316;
+  border-color: #07bcd4;
+  background-color: #07bcd4;
+  -webkit-transition-property: background-color, border-color;
+          transition-property: background-color, border-color;
+  -webkit-transition: 0.3s;
+          transition: 0.3s; }
+
+/*# sourceMappingURL=styles.min.css.map */

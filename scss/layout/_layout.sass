@@ -1,0 +1,73 @@
+body
+    font-family: "Raleway", sans-serif
+
+::selection
+    background-color: $color-blue
+    color: #fff
+
+// Header
+.logo
+    background-image: url(../img/logo.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    height: 35px
+    width: 135px
+    margin-top: 25px
+    margin-bottom: 32px
+
+.navbar
+    margin: 0
+
+.navbar-nav>li>a
+    padding: 35px 22px
+    border-bottom: 3px solid #fff
+    text-transform: uppercase
+    color: $color-light-black
+    font-size: 15px
+
+
+.navbar-nav>li>a:hover
+    border-bottom: 3px solid $color-blue
+    color: $color-blue
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+    border-color: #fff
+
+.navbar-default
+    border: none
+    background-color: #ffffff
+
+//Hero section
+section
+    .container-fluid
+        background-color: $color-light-black
+        padding-top: 280px
+        padding-bottom: 280px
+
+.hero-cta
+    text-align: center
+
+.hero-cta
+    h1
+        text-transform: uppercase
+        margin: 0 0 40px 0
+        font-size: 60px
+        color: #ffffff
+    a
+        text-transform: uppercase
+        padding: 15px 40px
+        border: 1px solid #fff
+        text-decoration: none
+        line-height: 48px
+        font-size: 18px
+        color: #ffffff
+        transition: .3s
+
+.hero-cta
+    a:hover
+        color: $color-dark-black
+        border-color: $color-blue
+        background-color: $color-blue
+        transition-property: background-color, border-color
+        transition: .3s
